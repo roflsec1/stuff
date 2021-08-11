@@ -20,7 +20,7 @@ def bit_stuffing(data): #Stuffing
 	data_list.append('0')
 	return ''.join(data_list)
 	
-def bit_destuffing(data):
+def bit_destuffing(data): #De-stuffing
 	c = 0
 	data_list = list(data)
 	del data_list[-1] 
