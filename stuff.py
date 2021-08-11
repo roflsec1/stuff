@@ -1,4 +1,4 @@
-#AUTHOR=wh1t3-h4t
+#AUTHOR = wh1t3-h4t
 from time import *
 from os import *
 
