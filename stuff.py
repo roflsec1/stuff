@@ -32,7 +32,9 @@ def bit_destuffing(data): #De-stuffing
 					del data_list[i+1] 
 					#print(data_list) #uncomment for debugging
 					c = 0 
-				continue 
+				continue
+			else:
+				c = 0
 		except IndexError:
 			break
 	return ''.join(data_list)
